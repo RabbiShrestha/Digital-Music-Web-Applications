@@ -1,0 +1,1 @@
+Digital music web application is an wab based applications made in php, to run this system you need to download xammp and paste the project on your path xampp\htdocs. After open Myphpadmin, create an database and import music_website_db.sql
