@@ -1,0 +1,258 @@
+@font-face {
+    src: url('assets/fonts/Lato-Regular.ttf');
+    font-family: lato;
+}
+
+*{
+    box-sizing: border-box;
+}
+ 
+
+
+body {
+    min-width: 350px;
+    font-family: lato, sans-serif, tahoma;
+    margin: 0px;
+    padding: 0px;
+}
+
+body a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    
+
+}
+
+header {
+    display:flex;
+    background-color: black;
+    position: sticky;
+    z-index: 999;
+    top: -10px;
+    box-shadow: 0 6px 10px 5px rgba(0,0,0,0.5);
+}
+
+.logo-holder {
+    max-width: 100px;
+    flex: 1;
+}
+
+.header.div{
+    flex: auto;
+
+}
+.main-nav {
+    display: flex;
+}
+
+.nav-item{
+    padding: 0px;
+    text-align: center;
+    
+}
+.header-div {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+}
+
+.main-title {
+color: white;
+font-size: 50px;
+padding: 10px;
+}
+
+.socials {
+display: flex;
+gap: 10px;
+}
+header .active{
+border-bottom: solid 4px red;
+}
+.dropdown {
+    position: relative;
+}
+
+.dropdown-list {
+    position: absolute;
+    display: none; /* Hidden by default */
+    border: solid thin #ccc;
+    background-color: rgb(65, 65, 65);
+    margin-top: 10px;
+    z-index: 1000;
+}
+
+.dropdown-list.show {
+    display: block; /* Shows when the 'show' class is added */
+}
+
+
+.hero{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    position: sticky;
+    z-index: 0;
+    top: -10px;
+    box-shadow: 0 6px 10px 5px rgba(0,0,0,0.5);
+}
+.content{
+    padding: 4px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.music-card img{
+    height: 200px;
+    width: 179px;
+    object-fit: cover;
+    transition: all .5s ease;
+}
+
+.music-card img:hover{
+    transform: scale(1.3)
+}
+.music-card{
+     width: 200px;
+     margin: 20px;
+     background-color: #eee;
+
+}
+
+.card-content {
+    padding: 4px;
+}
+.card-title{
+    font-size: 18px;
+}
+ .card-subtitle {
+    opacity: 0.7;
+}
+.music-card-full{
+    max-width: 800px;
+}
+.bi{
+    margin: 5px;
+    max-width: 30px;
+}
+
+footer a{
+    color: white;
+
+}
+.float-end{
+
+    float: right;
+}
+footer {
+
+    padding: 20px;
+    background-color: #444;
+    display: flex;
+    color: white;
+}
+
+ .footer-div{
+    padding: 10px;
+    flex: 1;
+ }
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: solid thin #ccc;
+}
+
+.btn {
+    border:none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.bg-blue{
+    background-color: blue;
+    color: white;
+}
+
+.bg-purple{
+    background-color: purple;
+    color: white;
+}
+
+.bg-orange{
+    background-color: orange;
+    color: white;
+}
+
+.m-1{
+    margin: 10px;
+
+}
+
+.m-2{
+    margin: 20px;
+}
+
+.mx-1{
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.mx-2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.my-1{
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.my-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.admin-content{
+    padding: 20px;
+    background-color: #b3f7f7;
+}
+
+.form-group{
+    display: flex;
+}
+
+.section-title{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.hide{
+    display: none;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #eee;
+}
+
+.table th, table td{
+    border: solid thin #ccc;
+    padding: 5px 10px;
+}
+
+.error{
+
+    color: red;
+}
+
+.alert{
+    background-color: red;
+    color: red;
+}
